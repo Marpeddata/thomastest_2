@@ -19,7 +19,8 @@ public class RenameMeResource {
        
     private static final FacadeExample FACADE =  FacadeExample.getFacadeExample(EMF);
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-            
+
+
     @GET
     @Produces({MediaType.APPLICATION_JSON})
     public String demo() {
